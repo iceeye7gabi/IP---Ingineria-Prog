@@ -44,11 +44,13 @@ class StudentMate extends Student{
 class Math{
     public int Inmultire(int a,int b)
     {
+        System.out.println("S-a accesat metoda cu 2 int-uri ca parametri");
           return a*b;
     }
 
     public float Inmultire(float a,float b)
     {
+        System.out.println("S-a accesat metoda cu 2 float-uri ca parametri");
         return a*b;
     }
 }
