@@ -7,6 +7,9 @@ class ProfesorInfo implements Profesor{
         System.out.println("Profesorul care preda Informatica este:");
         System.out.println(nameProfesor);
     }
+    public void setnameProfesor(String name){
+        nameProfesor=name;
+    }
     public ProfesorInfo(String nume){
         nameProfesor=nume;
     }
