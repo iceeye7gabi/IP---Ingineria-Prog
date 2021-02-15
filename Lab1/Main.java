@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 
 class Main {
@@ -24,6 +23,7 @@ class Main {
 
         ProfesorMate prof2 = new ProfesorMate("Zalinescu");
         prof2.getnameProfesor();
+<<<<<<< Updated upstream
         prof2.setnameProfesor("Daniel");
         prof2.getnameProfesor();
 
@@ -45,24 +45,25 @@ class Main {
         x=myInput.nextFloat();
         System.out.println("Introduceti al doilea numar real: ");
         z=myInput.nextFloat();
+=======
+>>>>>>> Stashed changes
         
-        System.out.println("Rezultatul inmultirii este: ");
-        System.out.println(calcule.inmultireMath(x, z));
-   
-       int n,m;
-       System.out.println("Introduceti primul numar intreg: ");
-       n=myInput.nextInt();
-       System.out.println("Introduceti al doilea numar intreg: ");
-       m=myInput.nextInt();
-       myInput.close();
-       
-       MathSecond div=new MathThird();
-       MathSecond DIV=new MathSecond();
+        Hobiuri ZalinescuHobi=new Hobiuri();
+        ZalinescuHobi.Set("Handabll");
+        ZalinescuHobi.Get();
 
-       System.out.println("Rezultatul impartirii este: ");
-       System.out.println(div.impartireMathSecond(n, m));
+        Hobiuri olariuHobiuri=new Hobiuri();
+        olariuHobiuri.Set("Voley", 3);
+        olariuHobiuri.Get();
 
-       System.out.println("Rezultatul impartirii este: ");
-       System.out.println(DIV.impartireMathSecond(n, m));
+        MaterieAnterioara Zalinescu=new MaterieAnterioara();
+        MaterieAnterioara Olariu=new MaterieCurenta();
+
+        Zalinescu.Set("Mate");
+        Zalinescu.Get();
+  
+        Olariu.Set("Grafuri");
+        Olariu.Get();
+
     }
 }
