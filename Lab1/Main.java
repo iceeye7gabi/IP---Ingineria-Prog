@@ -45,8 +45,13 @@ class Main {
        m=myInput.nextInt();
        myInput.close();
        
-       MathThird div=new MathThird();
-       System.out.println("Rezultatul inmultirii este: ");
+       MathSecond div=new MathThird();
+       MathSecond DIV=new MathSecond();
+
+       System.out.println("Rezultatul impartirii este: ");
        System.out.println(div.impartireMathSecond(n, m));
+
+       System.out.println("Rezultatul impartirii este: ");
+       System.out.println(DIV.impartireMathSecond(n, m));
     }
 }
