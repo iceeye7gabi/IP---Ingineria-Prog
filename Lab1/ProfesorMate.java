@@ -7,6 +7,9 @@ class ProfesorMate implements Profesor{
         System.out.println("Profesorul care preda Matematica este:");
         System.out.println(nameProfesor);
     }
+    public void setnameProfesor(String name){
+        nameProfesor=name;
+    }
     public ProfesorMate(String nume){
         nameProfesor=nume;
     }
