@@ -23,30 +23,10 @@ class Main {
 
         ProfesorMate prof2 = new ProfesorMate("Zalinescu");
         prof2.getnameProfesor();
-<<<<<<< Updated upstream
+        
         prof2.setnameProfesor("Daniel");
         prof2.getnameProfesor();
 
-        Math calcule=new Math();
-        int a,b;
-        Scanner myInput = new Scanner( System.in );
-        
- 
-        System.out.println("Introduceti primul numar intreg: ");
-        a=myInput.nextInt();
-        System.out.println("Introduceti al doilea numar intreg: ");
-        b=myInput.nextInt();
-       
-        System.out.println("Rezultatul inmultirii este: ");
-        System.out.println(calcule.inmultireMath(a, b));
- 
-        float x,z;
-        System.out.println("Introduceti primul numar real: ");
-        x=myInput.nextFloat();
-        System.out.println("Introduceti al doilea numar real: ");
-        z=myInput.nextFloat();
-=======
->>>>>>> Stashed changes
         
         Hobiuri ZalinescuHobi=new Hobiuri();
         ZalinescuHobi.Set("Handabll");
